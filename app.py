@@ -18,9 +18,10 @@ st.title("Heart Disease Prediction")
 st.title('')
 
 # Brief model description
-model_description = '''Our Neural Network (NN) model provides fast and accurate predictions for heart disease, assisting 
-                both doctors and the general public in quickly assessing their risk. By utilizing essential patient information, 
-                this model enables individuals to take proactive steps in managing their cardiovascular health.'''
+model_description = '''Our Neural Network (NN) model enables doctors to make informed decisions about heart disease 
+            by providing fast and accurate predictions. By analyzing important patient information, the model allows doctors to take proactive
+            steps in managing assessing patients cardiovascular health. It serves as a valuable tool for early detection empowering patients 
+            to make informed lifestyle choices.'''
 
 # Display the brief model description
 st.subheader("Model Description")
