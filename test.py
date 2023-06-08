@@ -3,7 +3,6 @@ import numpy as np
 
 # Load the trained model
 modelNN = joblib.load('predictorNN.joblib')
-joblib
 # modelLR = joblib.load('predictorLR.joblib')
 # modelSVM = joblib.load('predictorSVM.joblib')
 # modelGSNB = joblib.load('predictorGSNB.joblib')
