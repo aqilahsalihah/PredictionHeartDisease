@@ -1,8 +1,8 @@
 import streamlit as st
 import numpy as np
-import joblib
+from tensorflow import keras
 
-modelNN = joblib.load('predictorNN.joblib')
+modelNN = keras.models.load_model('predictoNN.h5')
 # Create a dictionary to map the input values to the corresponding label encodings
 value_mappings = {
     'Sex': {'Female': 0, 'Male': 1},
